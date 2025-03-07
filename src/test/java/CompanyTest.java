@@ -86,6 +86,7 @@ public class CompanyTest {
         assertThat(employee.getFullName(), instanceOf(String.class));
         assertThat(employee.getEmail(), instanceOf(String.class));
         assertThat(employee.getHealthPlans(), instanceOf(String[].class));
+        assertThat(employee.getHealthPlans(), instanceOf(String[].class));
     }
 
     @DisplayName("addHealthplan method başarılı çalışıyor mu?")
