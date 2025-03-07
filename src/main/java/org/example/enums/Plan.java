@@ -9,6 +9,7 @@ public enum Plan {
     private String name;
     private int price;
 
+    //constructor:
      Plan(String name, int price) {
         this.name = name;
         this.price = price;

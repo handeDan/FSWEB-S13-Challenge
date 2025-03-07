@@ -34,8 +34,8 @@ public class Employee {
         return healthPlans;
     }
 
+    //method:
     public void addHealthPlan(int index, String name) {
-
         if (index < 0 || index >= healthPlans.length) {
             System.out.println("invalid index");
             return;
